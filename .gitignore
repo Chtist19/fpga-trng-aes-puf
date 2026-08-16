@@ -44,3 +44,12 @@ sts-2.1.2/
 
 # AI 助手工作目录（codex 会话状态，非项目内容）
 .codex/
+
+# 测试报告与进度汇报（仅本地保留，不提交仓库）
+NIST_SP800-22_*.txt
+TRNG测试报告.md
+TRNG对比表格.md
+贾跃_TRNG阶段进度汇报.pptx
+命令行操作教程.txt
+run_nist.bat
+run_nist_sp80022.ps1
