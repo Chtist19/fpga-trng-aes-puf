@@ -1,0 +1,46 @@
+# Vivado 生成文件
+.Xil/
+*.jou
+*.log
+*.dcp
+*.str
+*.wdb
+*.wcfg
+*.vdi
+*.backup.*
+
+# Vivado 工程中间目录
+project_*/project_*.cache/
+project_*/project_*.gen/
+project_*/project_*.hw/
+project_*/project_*.ip_user_files/
+project_*/project_*.runs/
+project_*/project_*.sim/
+project_*/.idea/
+
+# 综合实现输出和功耗临时报告
+power_perf/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 随机数采集数据，体积较大，不放入 Git
+*.bin
+trng_mismatch_log.txt
+aes_keys.txt
+
+# 压缩包和第三方源码包
+*.zip
+build_libs/
+jsoncpp/
+libdivsufsort/
+sp80090b/
+sp80090b_v1.0/
+sts-2.1.2/
+
+# Office 渲染检查中间文件
+*.inspect.ndjson
+
+# AI 助手工作目录（codex 会话状态，非项目内容）
+.codex/
